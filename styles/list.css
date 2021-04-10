@@ -1,35 +1,29 @@
-#c1,#c2,#c3{
-    margin: 2% 50px;
-    background-color: rgb(132, 136, 139);
-    width: 40%;
-    /* display: inline-block; */
-}
 .Image{
-    height: 200px;
-    width: 250px;
+    height:200px;
+    width:250px;
 }
-#list{
-margin-left: auto;
-margin-right: auto;
-width: fit-content;
-padding-left: 0;
-}
- li{
-    display: inline;
-    padding: 20px;
-} 
-
- .li{
-    color: black;
-    font-weight: bold;
-} 
- #map-view{
-display: none;
-} 
-.container {
+#list-view{
+    scroll-behavior: smooth;
+  }
+  #map-view{
+    scroll-behavior: smooth;
+    display: none;
+   } 
+   .imagesView{
+    margin: 2%;
+    background-color: lightgray; 
+    width: 40%;
+    float: left;
     display: flex;
-    flex-direction: column;
+ }  
+
+
+.viewsty{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
-.right{
-    padding: 0.5em 1em 1em 1em;
-} 
+h3,p{
+    text-decoration: none;
+    color: black;
+}
