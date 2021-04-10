@@ -49,15 +49,15 @@
    .text1Sty{
     position: relative;
     bottom: 45%;
-    left:35%;
+    left:25%;
     color: #f1f1f1;
     visibility: hidden;
   }
 
   .text2Sty{
     position: relative;
-    bottom: 45%;
-    left:42%;
+    bottom: 48%;
+    left:28%;
     color: #f1f1f1; 
     visibility: hidden;
   }
@@ -65,7 +65,7 @@
   .text3Sty{
     position: relative;
     bottom: 45%;
-    left:27%;
+    left:18%;
     color: #f1f1f1;
     visibility: hidden;
   }
@@ -73,7 +73,7 @@
   .text4Sty{
     position: relative;
     bottom: 45%;
-    left:35%;
+    left:24%;
     color: #f1f1f1;
     visibility: hidden;
   }
@@ -81,15 +81,15 @@
   .text11Sty{
     position: relative;
     bottom: 45%;
-    left:35%;
+    left:23%;
     color: #f1f1f1;
     visibility: hidden;
   }
 
   .text12Sty{
     position: relative;
-    bottom: 45%;
-    left:42%;
+    bottom: 48%;
+    left:27%;
     color: #f1f1f1; 
     visibility: hidden;
   }
@@ -97,7 +97,7 @@
   .text13Sty{
     position: relative;
     bottom: 45%;
-    left:27%;
+    left:20%;
     color: #f1f1f1;
     visibility: hidden;
   }
@@ -105,7 +105,7 @@
   .text14Sty{
     position: relative;
     bottom: 45%;
-    left:35%;
+    left:15%;
     color: #f1f1f1;
     visibility: hidden;
   }
