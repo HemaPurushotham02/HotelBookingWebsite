@@ -1,125 +1,105 @@
 .indeximages{
-    height: 150px;
-    width: 150px;
-    box-shadow: 10px 10px 10px grey;
-    border-radius: 25%;
-
+  height: 150px;
+  width: 150px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 10px grey;
 }
-
 .indeximages:hover{
-    filter: brightness(50%); 
-
-  }
-
-  .indeximages:hover + .text1Sty {
-    visibility: visible;
-   }
-
-   .indeximages:hover + .text2Sty {
-    visibility: visible;
-   }
-
-   .indeximages:hover + .text3Sty {
-    visibility: visible;
-   }
-
-   .indeximages:hover + .text4Sty {
-    visibility: visible;
-
-   }
-   .indeximages:hover + .text11Sty {
-    visibility: visible;
-
-   }
-   .indeximages:hover + .text12Sty {
-    visibility: visible;
-
-   }
-   .indeximages:hover + .text13Sty {
-    visibility: visible;
-
-   }
-   .indeximages:hover + .text14Sty {
-    visibility: visible;
-
-   }
-
-
-
-   .text1Sty{
-    position: relative;
-    bottom: 45%;
-    left:25%;
-    color: #f1f1f1;
-    visibility: hidden;
-  }
-
-  .text2Sty{
-    position: relative;
-    bottom: 48%;
-    left:28%;
-    color: #f1f1f1; 
-    visibility: hidden;
-  }
-
-  .text3Sty{
-    position: relative;
-    bottom: 45%;
-    left:18%;
-    color: #f1f1f1;
-    visibility: hidden;
-  }
-
-  .text4Sty{
-    position: relative;
-    bottom: 45%;
-    left:24%;
-    color: #f1f1f1;
-    visibility: hidden;
-  }
-
-  .text11Sty{
-    position: relative;
-    bottom: 45%;
-    left:23%;
-    color: #f1f1f1;
-    visibility: hidden;
-  }
-
-  .text12Sty{
-    position: relative;
-    bottom: 48%;
-    left:27%;
-    color: #f1f1f1; 
-    visibility: hidden;
-  }
-
-  .text13Sty{
-    position: relative;
-    bottom: 45%;
-    left:20%;
-    color: #f1f1f1;
-    visibility: hidden;
-  }
-
-  .text14Sty{
-    position: relative;
-    bottom: 45%;
-    left:15%;
-    color: #f1f1f1;
-    visibility: hidden;
-  }
-
-#inputCity{
-    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg'); 
-    height: 380px;  
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-
+  filter: brightness(50%); 
+  
+}
+.indeximages:hover + .text1Sty {
+  visibility: visible;
+ }
+ .indeximages:hover + .text2Sty {
+  visibility: visible;
+ }
+ .indeximages:hover + .text3Sty {
+  visibility: visible;
+ }
+ .indeximages:hover + .text4Sty {
+  visibility: visible;
+  
+ }
+ .indeximages:hover + .text5Sty {
+  visibility: visible;
+ }
+ .indeximages:hover + .text6Sty {
+  visibility: visible;
+ }
+ .indeximages:hover + .text7Sty {
+  visibility: visible;
+ }
+ .indeximages:hover + .text8Sty {
+  visibility: visible;
+  
+ }
+ .text1Sty{
+  position: relative;
+  bottom: 45%;
+  left:25%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+.text2Sty{
+  position: relative;
+  bottom: 48%;
+  left:28%;
+  color: #f1f1f1; 
+  visibility: hidden;
+}
+.text3Sty{
+  position: relative;
+  bottom: 45%;
+  left:18%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+.text4Sty{
+  position: relative;
+  bottom: 45%;
+  left:24%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+.text5Sty{
+  position: relative;
+  bottom: 45%;
+  left:23%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+.text6Sty{
+  position: relative;
+  bottom: 48%;
+  left:27%;
+  color: #f1f1f1; 
+  visibility: hidden;
+}
+.text7Sty{
+  position: relative;
+  bottom: 45%;
+  left:26%;
+  color: #f1f1f1;
+  visibility: hidden;
 }
 
+.text8Sty{
+  position: relative;
+  bottom: 45%;
+  left:18%;
+  color: #f1f1f1;
+  visibility: hidden;
+}
+#inputCity{
+  background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg'); 
+  height: 380px;  
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  
+}
 #searchBar{
     position: relative;
     top: 56%;
@@ -133,28 +113,23 @@
     font-size: 16px; 
     border-radius: 12px; 
     text-align: start;
-} 
-#viewmore{
-    text-align: center;
-  }
+}
 
-  .mm{
-    padding-bottom: 20%;
-  }
+
+
+.mm{
+  padding-bottom: 20%;
+}
+.container1{
+  padding-left: 30% !important;
+}
+@media only screen and (min-width: 736px){
   .container1{
-    padding-left: 30% !important;
+    padding-left: 16% !important;
   }
-
-
-  @media only screen and (min-width: 736px){
-    .container1{
-      padding-left: 16% !important;
-    }
+}
+@media only screen and (min-width: 900px){
+  .container1{
+    padding-left: 8% !important;
   }
-
-  @media only screen and (min-width: 900px){
-    .container1{
-      padding-left: 8% !important;
-    }
-
 }
